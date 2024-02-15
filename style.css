@@ -278,14 +278,15 @@ p {
 }
 #services .service-bottom {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: initial;
+	/* flex-wrap: wrap; */
 	margin-top: 50px;
 }
 #services .service-item {
-	flex-basis: 80%;
-	display: flex;
+	flex-basis: fit-content;
+	display: flow;
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
