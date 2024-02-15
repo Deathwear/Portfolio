@@ -280,7 +280,7 @@ p {
 	display: flex;
 	align-items: normal;
 	justify-content: center;
-	flex-wrap: initial;
+	/* flex-wrap: initial; */
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
