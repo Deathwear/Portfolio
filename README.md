@@ -3,12 +3,12 @@
 
 
 ---
-
-### Made with ❤️ by [Aamir Reza](https://www.instagram.com/amrreza786/)
+<!-- add linkedIn profile instead of instagram profile -->
+### Made with ❤️ by [Aamir Reza](https://www.instagram.com/amrreza786/) 
 
 Like my works and want to support me?
 
-<a href="I have to add my website link here" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
+<a href="#" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
 
 ---
 
