@@ -281,7 +281,7 @@ p {
 	align-items: normal;
 	justify-content: center;
 	flex-wrap: initial;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	margin-top: 50px;
 }
 #services .service-item {
