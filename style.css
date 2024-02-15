@@ -278,7 +278,7 @@ p {
 }
 #services .service-bottom {
 	display: flex;
-	/* align-items: center; */
+	align-items: normal;
 	justify-content: center;
 	flex-wrap: initial;
 	/* flex-wrap: wrap; */
