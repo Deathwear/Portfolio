@@ -353,9 +353,14 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects a{
+#projects .project-info a{
 	color: whitesmoke;
 }
+#projects .project-info a:hover{
+	color: crimson;
+}
+
+
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
