@@ -353,6 +353,9 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
+#projects a{
+	color: whitesmoke;
+}
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
