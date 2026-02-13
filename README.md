@@ -4,7 +4,7 @@
 
 ---
 <!-- add linkedIn profile instead of instagram profile -->
-### Made with ❤️ by [Aamir Reza](https://www.instagram.com/amrreza786/) 
+### Made with ❤️ by [Aamir Reza](https://www.linkedin.com/in/aamir-reza-45baaa202/) 
 
 Like my works and want to support me?
 

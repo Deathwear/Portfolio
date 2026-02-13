@@ -1,8 +1,0 @@
-1>> and add your website refrence on the anchor tag
-2>> add social links to your webiste :
-					1. Github
-					2. LinkedIn
-					3. Facebook
-					4. Instagram
-
-3>> 

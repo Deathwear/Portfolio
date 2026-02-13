@@ -5,7 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Aamir's Portfolio</title>
+  <title>Aamir Reza — Full-Stack Web Developer Portfolio</title>
+  <link rel="icon" href="./img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Portfolio of Aamir Reza, a Full-Stack Web Developer specializing in Next.js, Node.js, and Web Security. Explore my projects and services.">
+  <meta property="og:title" content="Aamir Reza — Portfolio">
+  <meta property="og:description" content="Full-stack web developer specializing in web design, SEO, and security. View projects, services, and contact Aamir Reza.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./img/img-2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aamir Reza — Portfolio">
+  <meta name="twitter:description" content="Explore my web development projects and services.">
+  <meta name="twitter:image" content="./img/img-2.png">
 </head>
 
 <body>
@@ -19,10 +32,10 @@
           </a>
         </div>
         <div class="nav-list">
-          <div class="hamburger">
+          <div class="hamburger" role="button" tabindex="0" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
             <div class="bar"></div>
           </div>
-          <ul>
+          <ul id="primary-nav" aria-label="Primary">
             <li><a href="#hero" data-after="Home">Home</a></li>
             <li><a href="#services" data-after="Service">Services</a></li>
             <li><a href="#projects" data-after="Projects">Projects</a></li>
@@ -54,28 +67,28 @@
     <div class="services container">
       <div class="service-top">
         <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>I provide expert advice and training to help you make informed decisions about your website and digital strategy. Keep your website running smoothly with regular updates, backups, and security checks. Implement a user-friendly CMS like WordPress or Wix to easily manage and update your website content. Ensure your website looks great and functions seamlessly across all devices, from desktops to smartphones.</p>
+        <p>I provide expert advice and training to help you make informed decisions about your digital strategy. Keep your website running smoothly with regular updates and security audits. Ensure your website looks great and functions seamlessly across all devices.</p>
       </div>
       <div class="service-bottom">
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="Web Development Icon" loading="lazy" width="100" height="100" /></div>
           <h2>Web development</h2>
-          <p>As a proficient web developer, I specialize in creating bespoke, responsive websites and web applications tailored to meet the unique needs of my clients. From front-end design using HTML, CSS, and JavaScript to back-end development with technologies like Node.js and Express.js, I have the skills and expertise to bring your vision to life.</p>
+          <p>I specialize in creating bespoke, responsive websites. From front-end design using HTML, CSS, and JavaScript to back-end development with technologies like Node.js and MongoDB, I bring your vision to life.</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="Web Design Icon" loading="lazy" width="100" height="100" /></div>
           <h2>Web Design</h2>
-          <p>I believe that good design is the cornerstone of a successful website. With a creative eye and a knack for aesthetics, I strive to deliver visually stunning and user-friendly designs that captivate audiences and drive engagement.Let us help you create a website that stands out from the competition and drives results for your business.</p>
+          <p>I believe good design is the cornerstone of success. I deliver visually stunning and user-friendly designs that captivate audiences and drive engagement for your business.</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="SEO Icon" loading="lazy" width="100" height="100" /></div>
           <h2>SEO</h2>
-          <p>In today's digital landscape, visibility is key. With my expertise in SEO (Search Engine Optimization), I can help optimize your website to improve its search engine ranking, drive organic traffic, and enhance online visibility, ultimately boosting your online presence and maximizing your reach.</p>
+          <p>Visibility is key in today's digital landscape. I help optimize your website to improve search engine ranking, drive organic traffic, and enhance your overall online presence.</p>
         </div>
         <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="Web Security Icon" loading="lazy" width="100" height="100" /></div>
           <h2>Web Security</h2>
-          <p>Safeguard your online presence and sensitive information with our comprehensive web security services. We employ cutting-edge measures, including SSL certificates, secure authentication protocols, and routine audits, to protect against a wide range of cyber threats, ensuring peace of mind for you and your users.</p>
+          <p>Safeguard your online presence with comprehensive security services. I employ cutting-edge measures and routine audits to protect against cyber threats and ensure peace of mind.</p>
         </div>
       </div>
     </div>
@@ -91,51 +104,46 @@
       <div class="all-projects">
         <div class="project-item">
           <div class="project-info">
-            <a href="https://www.bio-hook.com/"><h1>Bio Hook</h1></a>
+            <a href="https://indorusmbbs.in/" target="_blank" rel="noopener noreferrer"><h1>Indorus MBBS</h1></a>
+            <h3>Platform: Next.js, Node.js, MongoDB</h3>
+            <h3>Deployment: AWS EC2, Nginx, PM2</h3>
+            <p>Designed and deployed a production-ready full-stack web application for overseas education consultancy. Implemented SEO best practices, optimized frontend performance, and integrated REST APIs.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/indorus-mbbs.png" alt="Indorus MBBS Screenshot" loading="lazy">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <a href="https://www.bio-hook.com/" target="_blank" rel="noopener noreferrer"><h1>Bio Hook</h1></a>
             <h3>Platform: Wix</h3>
             <h3>Hosting: Fully hosted on Wix platform</h3>
-            <h3>Domain: Custom Domain registered for the website <a href="https://www.bio-hook.com/">(bio-hook.com)</a></h3>
-            <p>A project I developed using the Wix platform. This project demonstrates my ability to create professional, fully-hosted websites with custom domains, catering to clients' needs effectively and efficiently. bio-hook.com exemplifies my ability to create high-quality, fully-functional websites that meet clients' objectives and exceed their expectations.</p>
+            <h3>Domain: Custom Domain <a href="https://www.bio-hook.com/" target="_blank" rel="noopener noreferrer">(bio-hook.com)</a></h3>
+            <p>A professional, fully-hosted website with a custom domain developed on Wix, catering to specific client needs effectively and efficiently.</p>
           </div>
           <div class="project-img">
-            <img src="./img/Project-1.png" alt="img" >
+            <img src="./img/Project-1.png" alt="Bio Hook Screenshot" loading="lazy" >
           </div>
         </div>
         <div class="project-item">
           <div class="project-info">
-            <a href="https://deathwear.github.io/Handwriting/"><h1>Handwriting Recognition Using ML</h1></a>
+            <a href="https://deathwear.github.io/Handwriting/" target="_blank" rel="noopener noreferrer"><h1>Handwriting Recognition</h1></a>
             <h3>Platform: GitHub pages</h3>
-            <p>Handwritten Text Recognition (HTR) system implemented with Machine-Learning and trained on the IAM off-line HTR dataset. The model takes images of single words or text lines (multiple words) as input and outputs the recognized text. The model is a stripped-down version of the HTR system.</p>
+            <p>Handwritten Text Recognition (HTR) system implemented with Machine-Learning and trained on the IAM off-line HTR dataset using a stripped-down HTR system.</p>
           </div>
           <div class="project-img">
-            <img src="./img/Project-2.png" alt="img">
+            <img src="./img/Project-2.png" alt="Handwriting Recognition Screenshot" loading="lazy">
           </div>
         </div>
         <div class="project-item">
           <div class="project-info">
-            <a href="https://github.com/Deathwear/CODSOFT"><h1>CODSOFT Project</h1></a>
-            <a href="https://github.com/Deathwear/CODSOFT/tree/main/TASK%201(Landing%20Page)"><h3>Project-1: Landing Page </h3></a>
-            <a href="https://github.com/Deathwear/CODSOFT/tree/main/TASK%202(Portfolio)"><h3>Project-2: Portfolio</h3></a>
-            <a href="https://github.com/Deathwear/CODSOFT/tree/main/TASK%203(Calculator)"><h3>Project-3: Calculator</h3></a>
-            <p>The CODSOFT company website projects represent my dedication to delivering high-quality web solutions that meet clients' needs and exceed their expectations. I'm proud to showcase these projects in my portfolio as examples of my skills and expertise in web development.</p>
+            <a href="https://github.com/Deathwear/CODSOFT" target="_blank" rel="noopener noreferrer"><h1>CODSOFT Project</h1></a>
+            <p>A collection of web solutions including a landing page, portfolio, and calculator, demonstrating core skills in web development and design.</p>
           </div>
           <div class="project-img">
-            <img src="./img/Codsoft Projects.jpg" alt="img">
+            <img src="./img/Codsoft Projects.jpg" alt="CODSOFT Projects Screenshot" loading="lazy">
           </div>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -146,14 +154,14 @@
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="./img/img-2.png" alt="img">
+          <img src="./img/img-2.png" alt="Aamir Reza" loading="lazy">
         </div>
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
-        <h2>Full Stack Web-Developer</h2>
-        <p>Hello! I'm Aamir Reza, a passionate and dedicated 4th-year B.Tech student specializing in Computer Science. With a keen interest in web development, web design, CyberSecurity, and Penetration Testinng, I've embarked on a journey to explore and master the intricacies of the digital world.</p>
-        <a href="./Resume/Aamir.pdf" download="" class="cta">Download Resume</a>
+        <h2>Full-Stack Web Developer</h2>
+        <p>Hello! I'm Aamir Reza, a passionate 4th-year B.Tech student specializing in Computer Science. I focus on web development, design, CyberSecurity, and Penetration Testing.</p>
+        <a href="./Resume/Aamir.pdf" download class="cta">Download Resume</a>
       </div>
     </div>
   </section>
@@ -166,28 +174,28 @@
         <h1 class="section-title">Contact <span>info</span></h1>
       </div>
       <div>
-        <p>Interested in collaborating on a project or just want to say hello? Feel free to reach out to me via email or connect with me on LinkedIn/GitHub/Other Social Media Platform. I'm always eager to discuss new opportunities and connect with fellow enthusiasts in the field of technology and web development.</p><br><br>
+        <p>Interested in collaborating? Feel free to reach out via phone, email, or social media. I'm always eager to discuss new opportunities in technology.</p><br><br>
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="Phone Icon" loading="lazy" width="100" height="100" /></div>
           
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+91 887 593 0173</h2>
-            <h2>+91 859 576 7919</h2>
+            <h2><a href="tel:+918875930173">+91 887 593 0173</a></h2>
+            <h2><a href="tel:+918595767919">+91 859 576 7919</a></h2>
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" alt="Email Icon" loading="lazy" width="100" height="100" /></div>
           <div class="contact-info">
             <h1>Email</h1>
-            <h2>amrreza786@gmail.com</h2>
-            <h2>areza5396@gmail.com</h2>
+            <h2><a href="mailto:amrreza786@gmail.com">amrreza786@gmail.com</a></h2>
+            <h2><a href="mailto:areza5396@gmail.com">areza5396@gmail.com</a></h2>
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" alt="Address Icon" loading="lazy" width="100" height="100" /></div>
           <div class="contact-info">
             <h1>Address</h1>
             <h2>Okhla, New Delhi, India</h2>
@@ -208,23 +216,23 @@
       <h2>Your Complete Web Solution</h2>
       <div class="social-icon">
         <div class="social-item">
-          <a href="https://github.com/Deathwear" target="_blank"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/github.png" alt="github"/></a>
+          <a href="https://github.com/Deathwear" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/github.png" alt="GitHub icon" loading="lazy"/></a>
         </div>
         <div class="social-item">
-          <a href="https://www.linkedin.com/in/aamir-reza-45baaa202/" target="_blank"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/linkedin.png" alt="linkedin"/></a>
+          <a href="https://www.linkedin.com/in/aamir-reza-45baaa202/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img width="100" height="100" src="https://img.icons8.com/bubbles/100/linkedin.png" alt="LinkedIn icon" loading="lazy"/></a>
         </div>
         <div class="social-item">
-          <a href="https://www.instagram.com/amrreza786/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+          <a href="https://www.instagram.com/amrreza786/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram icon" loading="lazy" width="100" height="100" /></a>
         </div>
         <div class="social-item">
-          <a href="https://www.facebook.com/aamir.tlx" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+          <a href="https://www.facebook.com/aamir.tlx" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook icon" loading="lazy" width="100" height="100" /></a>
         </div>
       </div>
-      <p>Copyright © 2023 Aamir. All rights reserved</p>
+      <p>Copyright © <span id="year"></span> Aamir. All rights reserved</p>
     </div>
   </section>
   <!-- End Footer -->
-  <script src="./app.js"></script>
+  <script src="./app.js" defer></script>
 </body>
 
 </html>
